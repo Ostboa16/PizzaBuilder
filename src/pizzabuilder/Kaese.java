@@ -13,12 +13,12 @@ public class Kaese extends Belag{
 
     @Override
     public float price() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        return 3.50f;
     }
 
     @Override
     public String name() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        return "Käse";
     }
     
 }
