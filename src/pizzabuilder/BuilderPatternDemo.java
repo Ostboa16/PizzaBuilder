@@ -15,11 +15,15 @@ public class BuilderPatternDemo {
         Pizza schinken = pizzaBuilder.prepareSchinkenPizza();
         System.out.println("Schinken");
         schinken.showItems();
+        System.out.println("");
         System.out.println("Total Cost: " + schinken.getCost());
+        System.out.println("");
         
         Pizza margherita = pizzaBuilder.prepareMargheritaPizza();
         System.out.println("Margherita");
         margherita.showItems();
+        System.out.println("");
         System.out.println("Total Cost: " + margherita.getCost());
+        System.out.println("");
     }
 }

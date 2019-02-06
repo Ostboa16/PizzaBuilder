@@ -30,7 +30,7 @@ public class Pizza {
     public void showItems(){
         for(Item item : items){
             System.out.println("Item: " + item.name());
-            System.out.println(", Price: " + item.price());
+            System.out.println("Price: " + item.price());
         }
     }
 }
