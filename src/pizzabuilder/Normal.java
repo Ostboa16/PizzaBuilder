@@ -18,7 +18,7 @@ public class Normal extends Boden{
 
     @Override
     public String name() {
-        return "Normal";
+        return "Normal"; 
     }
     
 }
