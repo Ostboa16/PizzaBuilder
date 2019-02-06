@@ -13,12 +13,12 @@ public class Normal extends Boden{
 
     @Override
     public float price() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        return 3.0f;
     }
 
     @Override
     public String name() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        return "Normal";
     }
     
 }
